@@ -53,8 +53,7 @@ Note: we do not evaluate the future deployment performance of the model, a step 
 
 The raw data is a collection of audio files from QMUL MSc students on the 'Principles of Machine Learning' module. It is important to consider our target population. For the sake of this problem, which is to build a binary classifier and not a product that uses the functionality of the model, we will identify the target population as QMUL MSc students who take the aforementioned model. For this problem our dataset is representative of the target population. If our target population was broader, e.g., anyone of any age who wants to see if the song they are humming is Starwars or Potter, the data we have would not be representative. 
 
-The raw audio files have high dimensionality and it is not practical to use this many predictors for our model. To build and validate our models we need to extract a smaller set of features, and obtain a feature matrix of size (n, m) where n is the number of items and m is the number of features. We also need to obtain a label vector which contains the song label for each item. We begin by loading the audio data for Potter and Starwars.
-
+The raw audio files have high dimensionality and it is not practical to use this many predictors for our model. To build and validate our models we need to extract a smaller set of features, and obtain a feature matrix of size (n, m) where n is the number of items and m is the number of features. We also need to obtain a label vector which contains the song label for each item. 
 
 
 
