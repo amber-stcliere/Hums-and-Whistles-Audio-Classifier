@@ -23,7 +23,7 @@ Al-Maathidi, Muhammad M.. “Optimal feature selection and machine learning for 
 
 The thirteen extracted features are as follows: power, tempo, voice frequency, and the mean and standard deviation of pitch, spectral centroid, spectral bandwidth, onset and zero crossing rate. 
 
-However, acknowledging that I do not possess domain expertise in audio processing, I used an additional transformation step, feature selection, to choose the features that were most relevant and to avoid using redudant predictors. For this we use recursive feature elimination (RFE) where a model is trained using different subsets of predictors and the subset of most relevant predictors are chosen. The chosen predictors will be the input for the model. For this transformation the input is the nine extracted features from the features extraction stage, the ouput is five selected features. 
+However, acknowledging that I do not possess domain expertise in audio processing, I used an additional transformation step, feature selection, to choose the features that were most relevant and to avoid using redudant predictors. For this we use recursive feature elimination (RFE) where a model is trained using different subsets of predictors and the subset of most relevant predictors are chosen. The chosen predictors will be the input for the model. For this transformation the input is the thirteen extracted features from the features extraction stage, the ouput is five selected features. 
 
 
 # 4 Modelling
